@@ -1,0 +1,823 @@
+Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.0.1 (Build 20B29)
+Darwin version:          20.1.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49695
+Successfully changed project path to: /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)
+/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-28 15:00:52.734 Unity[37494:91083] (null) preferred device: Apple M1 (high power)
+2022-03-28 15:00:52.734 Unity[37494:91083] Metal devices available: 1
+2022-03-28 15:00:52.734 Unity[37494:91083] 0: Apple M1 (high power)
+2022-03-28 15:00:52.734 Unity[37494:91083] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56494
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002668 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1329ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1087ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2226ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1857ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1013ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (840ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000111 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000155 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/My project (1).sln because it has changed
+[C# Project] First difference on line 4
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/My project (1).sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}"
+[C# Project]   005: EndProject
+[C# Project]   006: Global
+[C# Project]   007: 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+[C# Project]   008: 		Debug|Any CPU = Debug|Any CPU
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/My project (1).sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{B8435A4B-9897-4487-671E-F9DF77EC9D1B}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI.Tests", "UnityEngine.UI.Tests.csproj", "{FFB455E9-0D0A-77F4-BFD5-7823A77860B1}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Timeline.csproj", "{07AE1864-8020-73F7-BE49-D4E51C324C44}"
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEngine.TestRunner.csproj because it has changed
+[C# Project] First difference on line 394
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEngine.TestRunner.csproj:
+[C# Project]   394:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   395:  </Reference>
+[C# Project]   396:  <Reference Include="netstandard">
+[C# Project]   397:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   398:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEngine.TestRunner.csproj:
+[C# Project]   394:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   395:  </Reference>
+[C# Project]   396:  <Reference Include="netstandard">
+[C# Project]   397:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   398:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEngine.UI.Tests.csproj because it has changed
+[C# Project] First difference on line 344
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEngine.UI.Tests.csproj:
+[C# Project]   344:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   345:  </Reference>
+[C# Project]   346:  <Reference Include="netstandard">
+[C# Project]   347:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   348:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEngine.UI.Tests.csproj:
+[C# Project]   344:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   345:  </Reference>
+[C# Project]   346:  <Reference Include="netstandard">
+[C# Project]   347:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   348:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Timeline.csproj because it has changed
+[C# Project] First difference on line 353
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Timeline.csproj:
+[C# Project]   353:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   354:  </Reference>
+[C# Project]   355:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   356:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   357:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Timeline.csproj:
+[C# Project]   353:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   354:  </Reference>
+[C# Project]   355:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   356:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   357:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEngine.UI.csproj because it has changed
+[C# Project] First difference on line 368
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEngine.UI.csproj:
+[C# Project]   368:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   369:  </Reference>
+[C# Project]   370:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   371:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   372:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEngine.UI.csproj:
+[C# Project]   368:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   369:  </Reference>
+[C# Project]   370:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   371:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   372:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.csproj because it has changed
+[C# Project] First difference on line 342
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.csproj:
+[C# Project]   342:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   343:  </Reference>
+[C# Project]   344:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   345:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   346:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.csproj:
+[C# Project]   342:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   343:  </Reference>
+[C# Project]   344:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   345:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   346:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.Tests.csproj because it has changed
+[C# Project] First difference on line 275
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.Tests.csproj:
+[C# Project]   275:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   276:  </Reference>
+[C# Project]   277:  <Reference Include="netstandard">
+[C# Project]   278:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   279:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.Tests.csproj:
+[C# Project]   275:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   276:  </Reference>
+[C# Project]   277:  <Reference Include="netstandard">
+[C# Project]   278:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   279:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Assembly-CSharp.csproj because it has changed
+[C# Project] First difference on line 618
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Assembly-CSharp.csproj:
+[C# Project]   618:  <Reference Include="Unity.VSCode.Editor">
+[C# Project]   619:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+[C# Project]   620:  </Reference>
+[C# Project]   621:  <Reference Include="Unity.TextMeshPro.Editor">
+[C# Project]   622:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Assembly-CSharp.csproj:
+[C# Project]   618:   </ItemGroup>
+[C# Project]   619:   <ItemGroup>
+[C# Project]   620:     <ProjectReference Include="Unity.VSCode.Editor.csproj">
+[C# Project]   621:       <Project>{1317D03B-0E7F-3287-2CBB-4034AE5415BF}</Project>
+[C# Project]   622:       <Name>Unity.VSCode.Editor</Name>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEditor.TestRunner.csproj because it has changed
+[C# Project] First difference on line 442
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEditor.TestRunner.csproj:
+[C# Project]   442:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   443:  </Reference>
+[C# Project]   444:  <Reference Include="mscorlib">
+[C# Project]   445:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   446:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEditor.TestRunner.csproj:
+[C# Project]   442:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   443:  </Reference>
+[C# Project]   444:  <Reference Include="mscorlib">
+[C# Project]   445:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   446:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.PlasticSCM.Editor.csproj because it has changed
+[C# Project] First difference on line 592
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   592:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   593:  </Reference>
+[C# Project]   594:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   595:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   596:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   592:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   593:  </Reference>
+[C# Project]   594:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   595:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   596:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEditor.UI.csproj because it has changed
+[C# Project] First difference on line 320
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEditor.UI.csproj:
+[C# Project]   320:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   321:  </Reference>
+[C# Project]   322:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   323:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   324:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEditor.UI.csproj:
+[C# Project]   320:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   321:  </Reference>
+[C# Project]   322:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   323:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   324:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Services.Core.Editor.csproj because it has changed
+[C# Project] First difference on line 372
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Services.Core.Editor.csproj:
+[C# Project]   372:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   373:  </Reference>
+[C# Project]   374:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   375:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   376:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Services.Core.Editor.csproj:
+[C# Project]   372:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   373:  </Reference>
+[C# Project]   374:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   375:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   376:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Timeline.Editor.csproj because it has changed
+[C# Project] First difference on line 542
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Timeline.Editor.csproj:
+[C# Project]   542:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   543:  </Reference>
+[C# Project]   544:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   545:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   546:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Timeline.Editor.csproj:
+[C# Project]   542:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   543:  </Reference>
+[C# Project]   544:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   545:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   546:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.VisualStudio.Editor.csproj because it has changed
+[C# Project] First difference on line 322
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.VisualStudio.Editor.csproj:
+[C# Project]   322:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   323:  </Reference>
+[C# Project]   324:  <Reference Include="mscorlib">
+[C# Project]   325:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   326:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.VisualStudio.Editor.csproj:
+[C# Project]   322:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   323:  </Reference>
+[C# Project]   324:  <Reference Include="mscorlib">
+[C# Project]   325:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   326:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.Editor.csproj because it has changed
+[C# Project] First difference on line 331
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   331:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   332:  </Reference>
+[C# Project]   333:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   334:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   335:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   331:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   332:  </Reference>
+[C# Project]   333:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   334:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   335:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.CollabProxy.Editor.csproj because it has changed
+[C# Project] First difference on line 426
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.CollabProxy.Editor.csproj:
+[C# Project]   426:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   427:  </Reference>
+[C# Project]   428:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   429:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   430:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.CollabProxy.Editor.csproj:
+[C# Project]   426:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   427:  </Reference>
+[C# Project]   428:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   429:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   430:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/DocCodeExamples.csproj because it has changed
+[C# Project] First difference on line 287
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/DocCodeExamples.csproj:
+[C# Project]   287:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project]   289:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   290:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   291:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/DocCodeExamples.csproj:
+[C# Project]   287:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project]   289:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   290:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   291:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.PlasticSCM.EditorTests.csproj because it has changed
+[C# Project] First difference on line 298
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.PlasticSCM.EditorTests.csproj:
+[C# Project]   298:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   299:  </Reference>
+[C# Project]   300:  <Reference Include="nunit.framework">
+[C# Project]   301:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   302:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.PlasticSCM.EditorTests.csproj:
+[C# Project]   298:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   299:  </Reference>
+[C# Project]   300:  <Reference Include="nunit.framework">
+[C# Project]   301:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   302:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Rider.Editor.csproj because it has changed
+[C# Project] First difference on line 315
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Rider.Editor.csproj:
+[C# Project]   315:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   316:  </Reference>
+[C# Project]   317:  <Reference Include="mscorlib">
+[C# Project]   318:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   319:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.Rider.Editor.csproj:
+[C# Project]   315:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   316:  </Reference>
+[C# Project]   317:  <Reference Include="mscorlib">
+[C# Project]   318:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   319:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEditor.UI.EditorTests.csproj because it has changed
+[C# Project] First difference on line 299
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEditor.UI.EditorTests.csproj:
+[C# Project]   299:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   300:  </Reference>
+[C# Project]   301:  <Reference Include="mscorlib">
+[C# Project]   302:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   303:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/UnityEditor.UI.EditorTests.csproj:
+[C# Project]   299:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   300:  </Reference>
+[C# Project]   301:  <Reference Include="mscorlib">
+[C# Project]   302:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   303:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.CollabProxy.EditorTests.csproj because it has changed
+[C# Project] First difference on line 308
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.CollabProxy.EditorTests.csproj:
+[C# Project]   308:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   309:  </Reference>
+[C# Project]   310:  <Reference Include="mscorlib">
+[C# Project]   311:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   312:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.CollabProxy.EditorTests.csproj:
+[C# Project]   308:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   309:  </Reference>
+[C# Project]   310:  <Reference Include="mscorlib">
+[C# Project]   311:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   312:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.VSCode.Editor.csproj because it has changed
+[C# Project] First difference on line 291
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.VSCode.Editor.csproj:
+[C# Project]   291:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   292:  </Reference>
+[C# Project]   293:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   294:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   295:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.VSCode.Editor.csproj:
+[C# Project]   291:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   292:  </Reference>
+[C# Project]   293:  <Reference Include="Unity.Plastic.Antlr3.Runtime">
+[C# Project]   294:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.collab-proxy@1.15.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+[C# Project]   295:  </Reference>
+[C# Project] Writing /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.Editor.Tests.csproj because it has changed
+[C# Project] First difference on line 284
+
+[C# Project] Current /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.Editor.Tests.csproj:
+[C# Project]   284:  <HintPath>/Users/jordancarlton/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="mscorlib">
+[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   288:  </Reference>
+
+[C# Project] New /Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Unity.TextMeshPro.Editor.Tests.csproj:
+[C# Project]   284:  <HintPath>/Users/jordancarlton/Documents/2022 Spring Semester/Coding II/CSC250-Unity-Example/My project (1)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="mscorlib">
+[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   288:  </Reference>
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.9 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 2.351417 ms (FindLiveObjects: 0.069750 ms CreateObjectMapping: 0.029333 ms MarkObjects: 1.862708 ms  DeleteObjects: 0.389042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts
+  artifactKey: Guid(d7d002a1ce6db40e88ed719520cbc14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(d7d002a1ce6db40e88ed719520cbc14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eab304773875fd2ee28ccde9efb1657') in 0.005577 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.239 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2239ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1925ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1062ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (855ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.5 MB.
+System memory in use after: 173.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 1.797917 ms (FindLiveObjects: 0.058833 ms CreateObjectMapping: 0.028000 ms MarkObjects: 1.693166 ms  DeleteObjects: 0.017167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.233 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2234ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1927ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1089ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (878ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.7 MB.
+System memory in use after: 173.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1983.
+Total: 1.811042 ms (FindLiveObjects: 0.055834 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.707333 ms  DeleteObjects: 0.020000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97.168342 seconds.
+  path: Assets/Scripts/Boxs.cs
+  artifactKey: Guid(7a07317b366f342d58744415a2de6515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Boxs.cs using Guid(7a07317b366f342d58744415a2de6515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a470931d736020c700626052a235c9fe') in 1.611737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.390020 seconds.
+  path: Assets/Scripts/boxScript.cs
+  artifactKey: Guid(7a07317b366f342d58744415a2de6515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/boxScript.cs using Guid(7a07317b366f342d58744415a2de6515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89a575070f0c1cd7dfba6b4779bef14') in 0.002496 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001021 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.347 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2348ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1990ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1089ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (880ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (51ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.2 MB.
+System memory in use after: 178.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 2.014500 ms (FindLiveObjects: 0.077667 ms CreateObjectMapping: 0.030459 ms MarkObjects: 1.886083 ms  DeleteObjects: 0.019625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2299ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1921ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1062ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (851ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.3 MB.
+System memory in use after: 178.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1986.
+Total: 2.009708 ms (FindLiveObjects: 0.071708 ms CreateObjectMapping: 0.029500 ms MarkObjects: 1.884667 ms  DeleteObjects: 0.023167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002620 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2181ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1847ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1016ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (811ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1496 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1988.
+Total: 2.061917 ms (FindLiveObjects: 0.064959 ms CreateObjectMapping: 0.029416 ms MarkObjects: 1.948292 ms  DeleteObjects: 0.018625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
