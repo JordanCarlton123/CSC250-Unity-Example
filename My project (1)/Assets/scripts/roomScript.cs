@@ -7,9 +7,18 @@ public class roomScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CORE.theRooms.Add(this.gameObject);
+        CORE.addRoomGO(this.gameObject);
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        print("Room Entered: " + this.gameObject.ToString());
+    }
+
+    public void destroyRoom()
+    {
+        if()
+    }
     // Update is called once per frame
     void Update()
     {

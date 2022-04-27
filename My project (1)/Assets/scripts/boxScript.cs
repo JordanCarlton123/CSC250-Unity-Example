@@ -10,29 +10,32 @@ public class boxScript : MonoBehaviour
     private Vector3 playerPosition;
     private Rigidbody rb;
     public float speed = 20f;
-    private UnityEngine.AI.NavMeshAgent agent;
-    //agent.Warp(thePlayer.transform.position);
+    private NavMeshAgent agent;
+    private enemy theEnemy;
+
+    void Awake()
+    {
+        this.theEnemy = new enemy();
+    }
 
     // Start is called before the first frame update
     void Start() //like a constructor
     {
+        CORE.setEnemy(this.theEnemy);
         count = 0;
         rb = this.gameObject.GetComponent<Rigidbody>();
         agent = this.gameObject.GetComponent<NavMeshAgent>();
         //agent.speed = 20f;
-        //agent.Warp(thePlayer.transform.position); 
-
+        //agent.Warp(thePlayer.transform.position);
     }
 
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
-            CORE.display();
             count++;
             if (count == 3)
             {
-                this.gameObject.SendMessage("DoSomething");
                 Destroy(this.gameObject);
             }
         }
