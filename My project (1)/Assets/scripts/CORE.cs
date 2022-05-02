@@ -8,9 +8,19 @@ public class CORE : MonoBehaviour
     public Transform spawnPoint;
 
     private static List<GameObject> theRoomsGos = new List<GameObject>();
+    private static List<GameObject> theRoomTriggerGos = new List<GameObject>();
     private static List<Room> theRooms = new List<Room>();
     private static Player currentPlayer = null;
     private static Enemy currentEnemy = null;
+
+    public static void destroyRoomGOGivenRoomTrigger(GameObject roomTrigger)
+    {
+
+        int indexOfRoomTrigger = CORE.theRoomTriggerGos.IndexOf(roomTrigger);
+        //Destroy(CORE.theRoomsGos[indexOfRoomTrigger]);
+        //CORE.theRoomTriggerGos.RemoveAt(indexOfRoomTrigger);
+        //C
+    }
 
     public static GameObject getRoom()
     {
